@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(103, 206, 187);
+    font-family: 'Century Gothic',sans-serif;
+}
+
+#options{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    align-content: space-between;
+}
+
+#labels
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;    
+    width: 150px;
+}
+
+#textfields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+table, td{
+    border: 1px solid black;  
+      
+}       
+    
+td{
+    width: 30px;
+    height: 30px;
+    align-content: center;  
+    
+}
+
+
+#color-options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    align-content: space-between;   
+    padding: 30px;  
+}
+
+.labelChild{
+    display: flex;
+    flex-direction: column;
+    align-items: left;  
+    height: 22px;
+    
+}
+
+#colorUncolored{
+    width: 120px; 
+}
+
+#colorAll{
+    width: 120px;     
+}
+
+#clearAll{
+    width: 120px;     
+}
+
+#current-values{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}  
+
+#value-rows{
+    width: 120px;
+}

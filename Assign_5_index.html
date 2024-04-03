@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assign_5_style.css">
+</head>
+<body>
+    <h1>ROW AND COLUMN EDITOR</h1>
+    <div id="options">
+        <div id="labels">                
+            <div class = "labelChild">
+                <label for="addRow">Add Rows:</label>
+            </div>
+            <div class = "labelChild">
+                <label for="addCol">Add Columns:</label>
+            </div>
+            <div class = "labelChild">
+                <label for="remRow">Remove Rows:</label>
+            </div>
+            <div class = "labelChild">
+                <label for="remCol">Remove Columns:</label>
+            </div>    
+        </div>
+
+        <div id = "textfields">                
+            <input type="text" id="addRowT">
+            <input type="text" id="addColT">
+            <input type="text" id="remRowT">
+            <input type="text" id="remColT">
+        </div>
+
+        <div id = "color-options">     
+
+                <div>
+                    <button type="button" id = "colorUncolored">Color Uncolored</button>
+                    </div>
+                    <div>
+                    <button type="button" id = "colorAll">Color All</button>
+                    </div>
+        
+                    <div>
+                    <button type="button" id = "clearAll">Clear All</button>
+                </div>
+
+                <div id="color-choices">
+                    <label>Color: </label>
+                    <select name="color-dropdowns" id="color-dropdowns">
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+                
+
+            </div>
+    </div>
+
+    <div>
+        <br>
+        <button type="button" id="submit-button">Submit</button>
+    </div>
+    
+    <br>
+    <table id="grid-table">              
+              
+    </table>
+    
+    <div id="current-values">
+        <h2 id="dimension"></h2>
+    </div>
+
+    <script src ="Assign_5_script.js"></script>
+</body>
+</html>
